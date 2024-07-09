@@ -6,7 +6,7 @@
     <div class="flex items-center">
         <a href="/" class="flex items-center no-underline">
             <img src="/images/logo.jpg" alt="Logo" class="h-10 w-auto mr-2" />
-            <span class="text-2xl font-script text-black ml-2">Tan's Self Portrait Studio</span>
+            <span class="text-2xl font-script text-black ml-2">Tans' Self Portrait Studio</span>
         </a>
     </div>
     <button class="md:hidden" on:click={() => (isMenuOpen = !isMenuOpen)}>
@@ -38,7 +38,7 @@
 		background-color: white; /* Ensure the background is not transparent */
 	}
 	@font-face {
-		font-family: 'Brush Script MT';
+		font-family:'Brush Script MT';
 		src: url('/fonts/BrushScript.otf') format('opentype');
 	}
 	.font-script {
