@@ -4,7 +4,11 @@
     <section class="text-center py-12" data-aos="fade-up">
       <h1 class="text-4xl font-bold mb-4 title">Tans' Self Portrait Studio</h1>
       <p class="text-xl">Take a nice shot</p>
-      <img src="/images/studio/front.png" alt="Featured Image" class="mx-auto my-8 w-full max-w-8xl h-auto">
+      <div class="video-frame mx-auto my-8">
+        <video src="/videos/studio_tour.mp4" autoplay loop muted class="w-full h-auto">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </section>
   
     <section class="py-12" data-aos="fade-up" data-aos-delay="100">
@@ -39,5 +43,13 @@
   <style>
 .title {
     font-family: 'Brush Script MT', cursive;
+}
+.video-frame {
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    border: 10px solid #fff;
+    border-radius: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
   </style>
