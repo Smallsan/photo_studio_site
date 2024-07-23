@@ -18,6 +18,8 @@
         <a href="/contact" class="py-2 px-4 text-base text-gray-800 no-underline hover:text-custom-brown">Contact</a>
         <a href="/gallery" class="py-2 px-4 text-base text-gray-800 no-underline hover:text-custom-brown">Gallery</a>
         <a href="/services" class="py-2 px-4 text-base text-gray-800 no-underline hover:text-custom-brown">Services</a>
+		<a href="/login" class="py-2 px-4 text-base text-gray-800 no-underline hover:text-custom-brown">Login</a>
+        <a href="/signup" class="py-2 px-4 text-base text-gray-800 no-underline hover:text-custom-brown">Sign Up</a>
     </div>
     <div class={`absolute top-full left-0 w-full ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
         <ul class="flex flex-col items-center m-0 p-0 list-none bg-white shadow-md">
@@ -26,6 +28,8 @@
             <li class="w-full text-center"><a href="/contact" class="block py-2 px-0 text-base text-gray-800 no-underline hover:text-custom-brown">Contact</a></li>
             <li class="w-full text-center"><a href="/gallery" class="block py-2 px-0 text-base text-gray-800 no-underline hover:text-custom-brown">Gallery</a></li>
             <li class="w-full text-center"><a href="/services" class="block py-2 px-0 text-base text-gray-800 no-underline hover:text-custom-brown">Services</a></li>
+			<li class="w-full text-center"><a href="/login" class="block py-2 px-0 text-base text-gray-800 no-underline hover:text-custom-brown">Login</a></li>
+            <li class="w-full text-center"><a href="/signup" class="block py-2 px-0 text-base text-gray-800 no-underline hover:text-custom-brown">Sign Up</a></li>
         </ul>
     </div>
 </nav>
@@ -34,8 +38,8 @@
 	nav {
 		position: sticky;
 		top: 0;
-		z-index: 1000; /* Ensure the menu stays on top of other content */
-		background-color: white; /* Ensure the background is not transparent */
+		z-index: 1000; 
+		background-color: white; 
 	}
 	@font-face {
 		font-family:'Brush Script MT';
@@ -50,21 +54,19 @@
 	.hover\:text-custom-brown:hover {
 		color: #d9b99b;
 	}
-	/* Additional styles for the toggle button */
 	button {
 		background: none;
 		border: none;
 		cursor: pointer;
 	}
-	/* Ensure the menu items are centered */
 	ul li a {
 		justify-content: center;
 	}
-	/* Adjustments for the dropdown menu */
+
 	.absolute {
-		z-index: 10; /* Ensure the menu is above other content */
+		z-index: 10; 
 	}
 	.shadow-md {
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 	}
 </style>
